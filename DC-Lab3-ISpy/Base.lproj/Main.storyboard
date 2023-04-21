@@ -19,17 +19,15 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v9d-hh-lEh">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0i1-EK-LIV">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1098" translatesAutoresizingMaskIntoConstraints="NO" id="0i1-EK-LIV">
+                                        <rect key="frame" x="0.0" y="0.0" width="4032" height="3024"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="0i1-EK-LIV" secondAttribute="trailing" id="OSE-Ul-Toq"/>
-                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="bottom" secondItem="bqW-dv-5Gh" secondAttribute="bottom" id="eNE-vN-au6"/>
-                                    <constraint firstAttribute="bottom" secondItem="0i1-EK-LIV" secondAttribute="bottom" id="pfg-Zy-78T"/>
-                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="centerX" secondItem="v9d-hh-lEh" secondAttribute="centerX" id="qNS-4e-TS4"/>
-                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="top" secondItem="v9d-hh-lEh" secondAttribute="top" id="tgV-Gh-cQB"/>
-                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="leading" secondItem="v9d-hh-lEh" secondAttribute="leading" id="w1N-OV-yKP"/>
+                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="trailing" secondItem="n5x-03-Rqp" secondAttribute="trailing" id="UFi-Q4-wLV"/>
+                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="bottom" secondItem="n5x-03-Rqp" secondAttribute="bottom" id="WfK-zs-Avv"/>
+                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="leading" secondItem="n5x-03-Rqp" secondAttribute="leading" id="kHZ-Sw-J6t"/>
+                                    <constraint firstItem="0i1-EK-LIV" firstAttribute="top" secondItem="n5x-03-Rqp" secondAttribute="top" id="qrB-LX-9wq"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="n5x-03-Rqp"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="bqW-dv-5Gh"/>
@@ -38,10 +36,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="v9d-hh-lEh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GBJ-Pc-qCK"/>
-                            <constraint firstItem="v9d-hh-lEh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KuN-v5-ZAP"/>
-                            <constraint firstItem="v9d-hh-lEh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="okG-xJ-Zpa"/>
-                            <constraint firstItem="v9d-hh-lEh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rcU-wl-vk3"/>
+                            <constraint firstItem="v9d-hh-lEh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="599-yc-7ad"/>
+                            <constraint firstItem="v9d-hh-lEh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cEu-2t-S49"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v9d-hh-lEh" secondAttribute="bottom" id="dMH-XB-b0m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v9d-hh-lEh" secondAttribute="trailing" id="gdq-zp-EgD"/>
                         </constraints>
                     </view>
                     <connections>
@@ -55,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="IMG_1098" width="4032" height="3024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
