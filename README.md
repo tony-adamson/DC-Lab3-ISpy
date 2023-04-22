@@ -1,5 +1,5 @@
 # DC-Lab3-ISpy
-# Lab#2 from Apple Develop in Swift Data Collections
+# Lab#3 from Apple Develop in Swift Data Collections
 
 Эта лабораторная работа представляет собой приложение, в котором использован ScrollView с вложенным ImageView. 
 Что позволяет делать увеличение изображения. 
